@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #262626;
+}
+
+.mockup-container {
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+/* Phone Cards */
+.mockup {
+  position: absolute;
+  width: 220px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.mockup-left {
+  top: 60px;
+  left: 0;
+  transform: rotate(-8deg);
+  z-index: 1;
+}
+
+.mockup-center {
+  top: 0;
+  left: 190px;
+  z-index: 3;
+}
+
+.mockup-right {
+  top: 60px;
+  left: 330px;
+  transform: rotate(8deg);
+  z-index: 2;
+}
+
+/* Emoji Icons */
+.emoji {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.emoji-top {
+  top: -25px;
+  left: 240px;
+  width: 90px;
+  height: auto;
+  z-index: 4;
+}
+
+.emoji-left {
+  top: 180px;
+  left: 45px;
+  width: 40px;
+  z-index: 5;
+}
+
+.emoji-right {
+  top: 190px;
+  right: 75px;
+  width: 35px;
+  z-index: 5;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 20px;
+  gap: 50px;
+}
+
+.image-section img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.login-section {
+  width: 350px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #0095f6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #999;
+  font-size: 13px;
+}
+
+.facebook-login {
+  background: none;
+  border: none;
+  color: #385185;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin: 40px 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
