@@ -2,53 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Instagram Login Clone</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Clone Mockup</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <!-- Left Side: Image -->
-  <div class="mockup-container">
-    <!-- Phone Images -->
-    <img src="https://images.pexels.com/photos/28888994/pexels-photo-28888994.jpeg" alt="Left Card" class="mockup mockup-left" />
-    <img src="https://images.pexels.com/photos/32546608/pexels-photo-32546608.jpeg" alt="Center Card" class="mockup mockup-center" />
-    <img src="https://images.pexels.com/photos/25682730/pexels-photo-25682730.jpeg" alt="Right Card" class="mockup mockup-right" />
+  <div class="main-container">
+    <!-- Mockup Section -->
+    <div class="mockup-container">
+      <img src="https://images.pexels.com/photos/17713822/pexels-photo-17713822.jpeg" alt="Left" class="mockup mockup-left" />
+      <img src="https://images.pexels.com/photos/28888994/pexels-photo-28888994.jpeg" alt="Center" class="mockup mockup-center" />
+      <img src="https://images.pexels.com/photos/19664325/pexels-photo-19664325.jpeg" alt="Right" class="mockup mockup-right" />
 
-    <!-- Emojis / Icons -->
-    <img src="assets/emoji-top.png" alt="Emoji Top" class="emoji emoji-top" />
-    <img src="assets/heart.png" alt="Heart" class="emoji emoji-left" />
-    <img src="assets/star.png" alt="Star" class="emoji emoji-right" />
-  </div>
+      <!-- Emojis -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Emoji_u1f440.svg/64px-Emoji_u1f440.svg.png" alt="Eyes" class="emoji emoji-top" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Love_Heart_SVG.svg/64px-Love_Heart_SVG.svg.png" alt="Heart" class="emoji emoji-left" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Green_Check.svg/64px-Green_Check.svg.png" alt="Check" class="emoji emoji-right" />
+    </div>
 
-    <!-- Right Side: Login Form -->
-    <div class="login-section">
+    <!-- Login Section -->
+    <div class="login-container">
       <h1 class="logo">Instagram</h1>
-      <form class="login-form">
-        <input type="text" placeholder="Phone number, username, or email" />
-        <input type="password" placeholder="Password" />
-        <button type="submit">Log in</button>
+      <form id="loginForm" class="login-form">
+        <input type="text" id="username" placeholder="Phone number, username, or email" />
+        <input type="password" id="password" placeholder="Password" />
+        <button type="submit">Log In</button>
         <div class="divider"><span>OR</span></div>
-        <button class="facebook-login">Log in with Facebook</button>
+        <button type="button" class="facebook-login">Log in with Facebook</button>
         <a href="#" class="forgot">Forgot password?</a>
       </form>
       <div class="signup">
-        Don't have an account? <a href="#">Sign up</a>
+        Don’t have an account? <a href="#">Sign up</a>
       </div>
     </div>
   </div>
 
-  <footer>
-    <ul>
-      <li>Meta</li><li>About</li><li>Blog</li><li>Jobs</li>
-      <li>Help</li><li>API</li><li>Privacy</li><li>Terms</li>
-      <li>Locations</li><li>Instagram Lite</li><li>Threads</li>
-      <li>Contact Uploading & Non-Users</li><li>Meta Verified</li>
-    </ul>
-    <p>© 2025 Instagram from Meta</p>
-  </footer>
-
-
-  <script src="./app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
